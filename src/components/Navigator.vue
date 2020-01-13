@@ -6,9 +6,8 @@
         <span class="countdown-cover">
           <span :class="{formal:timeTypeVal=='正式', test:timeTypeVal=='公测'}">{{timeTypeVal}}</span>
           <span style="color: #252020;padding-left: 40px;display: inline-block" v-if="countDownShow">
-            还有
-          {{countDownVal}} 开始 &nbsp;{{timeTypeVal}}</span>
-          <span v-else style="color: #252020;padding-left: 80px;display: inline-block">进行中</span>
+            距离活动开始还有&nbsp;{{countDownVal}}</span>
+          <span v-else style="color: #252020;padding-left: 80px;display: inline-block">活动正在进行中...</span>
           <!--<span-->
             <!--style="color: #252020;display: inline-block; width: 40px;height: 40px;float:right"-->
             <!--@click="getRestAndCountdown"-->

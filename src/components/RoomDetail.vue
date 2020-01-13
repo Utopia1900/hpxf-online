@@ -117,8 +117,7 @@
       </v-ons-list>
       <div style="position: fixed; bottom: 0; width: 100%">
         <v-ons-button modifier="large" disabled="true" v-show="countDownShow">
-          还有
-          {{countDownVal}} 开始 &nbsp;{{timeTypeVal}}
+          距离活动开始还有&nbsp;{{countDownVal}}
         </v-ons-button>
         <div v-show="!countDownShow">
           <v-ons-button modifier="large" disabled="true" class="buyBtn" v-if="roomInfo.status===2">
